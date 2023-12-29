@@ -11,8 +11,9 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     // Значение HSTS по умолчанию — 30 дней. Возможно, вы захотите изменить это для производственных сценариев, см. https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
-}
- 
+} 
+  
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
